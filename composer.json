@@ -1,0 +1,21 @@
+{
+    "name": "kjg-sommerlager-st-rupert/kjg-sommerlager-layout2021",
+    "type": "typo3-cms-extension",
+    "description": "Layout der Sommerlagerseite ab 2021  Fluid  Bootstrap",
+    "homepage": "https://www.kjg-sommerlager.de",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KjgSommerlagerStRupert\\KjgSommerlagerLayout2021\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "kjg_sommerlager_layout2021"
+        }
+    }
+}

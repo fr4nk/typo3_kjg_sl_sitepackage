@@ -1,0 +1,8 @@
+#############
+#### RTE ####
+#############
+RTE {
+    default {
+        preset = kjg_sommerlager_layout2021
+    }
+}
